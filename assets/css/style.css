@@ -1,0 +1,717 @@
+
+ 
+ #encabezado{
+    position: absolute;
+    top: 0px;
+    background-color: rgb(78, 189, 236);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+button{
+    position: relative;
+    width: 25%;
+    height: 50%;
+    background-color: blue;
+}
+a{
+    color: white;
+  width: 100%;
+  height: 100%;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+    height: 100px;
+    width: 100px;
+ 
+}
+
+
+aside{
+    position: fixed;
+   display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
+    left: 0px;
+    top: 110px;
+
+    width: 18%;
+    height: 250px;
+    background-color: rgb(246, 85, 85);
+
+}
+.menu a{
+   
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    color: #f4f4f4;
+    z-index: -1;
+}
+main img{
+    position: absolute;
+   top: 100px;
+   left: 0px;
+    width: 100%;
+    height: 650px;
+    z-index: -1;
+
+}
+
+
+h1{
+    position: absolute;
+
+    top: 600px;
+    left: 30px;
+    color: rgb(234, 236, 208);
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+#nacionales{
+    display: flex;
+   
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+   top: 820px;
+    width: 100%;
+    height: 2150px;
+    
+}
+.titulouno{
+    position: absolute;
+    top: 0px;
+    
+
+}
+.primero{
+   
+    position: absolute;
+    left: 15%;
+    top: 100px;
+   
+}
+.segundo{
+    position: absolute;
+    right: 15%;
+    top: 100px;
+}
+  
+.bogota-medellin{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+    
+
+}
+.bogota-medellin ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-medellin li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-medellin img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+    
+
+}
+
+
+.bogota-cali{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-cali ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-cali li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-cali img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+
+.bogota-barranquilla{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-barranquilla ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-barranquilla li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-barranquilla img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.bogota-cartagena{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-cartagena ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-cartagena li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-cartagena img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.medellin-cali{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.medellin-cali ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.medellin-cali li{
+    list-style: none;
+    width: 100%;
+}
+.medellin-cali img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.medellin-cartagena{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.medellin-cartagena ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.medellin-cartagena li{
+    list-style: none;
+    width: 100%;
+}
+.medellin-cartagena img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.medellin-barranquilla{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.medellin-barranquilla ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.medellin-barranquilla li{
+    list-style: none;
+    width: 100%;
+}
+.medellin-barranquilla img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}.cali-barranquilla{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.cali-barranquilla ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.cali-barranquilla li{
+    list-style: none;
+    width: 100%;
+}
+.cali-barranquilla img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.cali-cartagena{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.cali-cartagena ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.cali-cartagena li{
+    list-style: none;
+    width: 100%;
+}
+.cali-cartagena img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.barranquilla-cartagena{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.barranquilla-cartagena ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.barranquilla-cartagena li{
+    list-style: none;
+    width: 100%;
+}
+.barranquilla-cartagena img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+
+#internacionales{
+    display: flex;
+   
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+   top: 3000px;
+    width: 100%;
+    height: 2150px;
+    
+}
+.inter{
+    position: absolute;
+    top: 0px;
+}
+.tercero{
+    position: absolute;
+    left: 15%;
+    top: 100px;
+}
+.cuarto{
+    position: absolute;
+   right: 15%;
+    top: 100px;
+}
+.bogota-miami{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-miami ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-miami li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-miami img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.bogota-madrid{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-madrid ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-madridi li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-madrid img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.bogota-mexico{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-mexico ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-mexico li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-mexico img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.bogota-new{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-new ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-new li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-new img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.bogota-buenos{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-buenos ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-buenos li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-buenos img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.bogota-lima{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.bogota-lima ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.bogota-lima li{
+    list-style: none;
+    width: 100%;
+}
+.bogota-lima img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.medellin-miami{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.medellin-miami ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.medellin-miami li{
+    list-style: none;
+    width: 100%;
+}
+.medellin-miami img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.medellin-madrid{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.medellin-madrid ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.medellin-madrid li{
+    list-style: none;
+    width: 100%;
+}
+.medellin-madrid img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.medellin-mexico{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.medellin-mexico ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.medellin-mexico li{
+    list-style: none;
+    width: 100%;
+}
+.medellin-mexico img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+.medellin-new{
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 40%;
+
+}
+.medellin-new ul{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    animation: bome infinite 6s alternate ease-in-out;
+}
+.medellin-new li{
+    list-style: none;
+    width: 100%;
+}
+.medellin-new img{
+    width: 100%;
+}
+@keyframes bome {
+    50%  {margin-left: 0%;}
+    90% {margin-left: 0%;}
+
+    0% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+}
+body{
+   
+    background-color: #cedef0;
+}
+#redes{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 100%;
+    background-color: rgb(163, 47, 47);
+    width: 100%;
+    height: 200px;
+}
+footer img{
+    height: 100px;
+    width: 100px;
+
+}
